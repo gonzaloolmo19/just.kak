@@ -1,7 +1,7 @@
 # author: gonzaloolmo19
 # It is a wrapper the :make command (also a
 # wrapper). It simply changes the makecmd to 'just', runs the :make command 
-# and sets makecmd to its default value: 'make'. Effectively, it just runs the
+# and sets makecmd to the value it had before. Effectively, it just runs the
 # just command, and shows its output in a new buffer. It can be very useful
 # for linting, running, etc. In general, running just commands.
 
@@ -12,5 +12,5 @@ define-command -params .. \
      } just %{ evaluate-commands %sh{
         printf %s\\n "set-option global makecmd 'just'
             execute-keys ':make $@<ret>'
-            set-option global makecmd 'make'"
+            set-option global makecmd '$kak_opt_makecmd'"
 }}
