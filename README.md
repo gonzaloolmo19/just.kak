@@ -1,6 +1,6 @@
 # just.kak
 `just.kak` is a plugin for [Kakoune](https://github.com/mawww/kakoune).
-It is just a wrapper for running `just` inside Kakoune.
+It is just a wrapper for using [just](https://github.com/casey/just) inside Kakoune.
 
 It is a stupid simple script. I only started using Kakoune a few days ago, and
 I found useful using `just` within Kakoune. If there is someone that finds
