@@ -3,7 +3,7 @@
 It is just a wrapper for running `just` inside Kakoune.
 
 It is a stupid simple script. I only started using Kakoune a few days ago, and
-I found useful using `just` within Kakoune. If there is someone finds
+I found useful using `just` within Kakoune. If there is someone that finds
 this plugin useful for their workflow too, awesome.
 
 
